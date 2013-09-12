@@ -24,69 +24,38 @@ Partial Class frmInscription
     Private Sub InitializeComponent()
         Me.picCoin = New System.Windows.Forms.PictureBox()
         Me.lblTitre = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.lblTestCommit = New System.Windows.Forms.Label()
-        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         CType(Me.picCoin, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'picCoin
         '
         Me.picCoin.Image = Global.DentsuBosGym.My.Resources.Resources.ImageCoin
-        Me.picCoin.Location = New System.Drawing.Point(211, 12)
+        Me.picCoin.Location = New System.Drawing.Point(272, 12)
         Me.picCoin.Name = "picCoin"
-        Me.picCoin.Size = New System.Drawing.Size(88, 88)
-        Me.picCoin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.picCoin.Size = New System.Drawing.Size(100, 100)
+        Me.picCoin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.picCoin.TabIndex = 0
         Me.picCoin.TabStop = False
         '
         'lblTitre
         '
         Me.lblTitre.AutoSize = True
-        Me.lblTitre.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTitre.Location = New System.Drawing.Point(13, 13)
+        Me.lblTitre.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTitre.Location = New System.Drawing.Point(85, 12)
         Me.lblTitre.Name = "lblTitre"
-        Me.lblTitre.Size = New System.Drawing.Size(191, 29)
+        Me.lblTitre.Size = New System.Drawing.Size(181, 27)
         Me.lblTitre.TabIndex = 1
         Me.lblTitre.Text = "DentsuBosGym"
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(224, 373)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'lblTestCommit
-        '
-        Me.lblTestCommit.AutoSize = True
-        Me.lblTestCommit.Location = New System.Drawing.Point(15, 386)
-        Me.lblTestCommit.Name = "lblTestCommit"
-        Me.lblTestCommit.Size = New System.Drawing.Size(176, 13)
-        Me.lblTestCommit.TabIndex = 3
-        Me.lblTestCommit.Text = "Ceci est un label pour le commit test"
-        '
-        'WebBrowser1
-        '
-        Me.WebBrowser1.Location = New System.Drawing.Point(18, 117)
-        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.Size = New System.Drawing.Size(523, 250)
-        Me.WebBrowser1.TabIndex = 4
-        Me.WebBrowser1.Url = New System.Uri("http://www.google.com", System.UriKind.Absolute)
         '
         'frmInscription
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(553, 431)
-        Me.Controls.Add(Me.WebBrowser1)
-        Me.Controls.Add(Me.lblTestCommit)
-        Me.Controls.Add(Me.Button1)
+        Me.BackColor = System.Drawing.SystemColors.Control
+        Me.ClientSize = New System.Drawing.Size(384, 561)
         Me.Controls.Add(Me.lblTitre)
         Me.Controls.Add(Me.picCoin)
+        Me.ForeColor = System.Drawing.Color.Black
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
         Me.Name = "frmInscription"
@@ -98,8 +67,5 @@ Partial Class frmInscription
     End Sub
     Friend WithEvents picCoin As System.Windows.Forms.PictureBox
     Friend WithEvents lblTitre As System.Windows.Forms.Label
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents lblTestCommit As System.Windows.Forms.Label
-    Friend WithEvents WebBrowser1 As System.Windows.Forms.WebBrowser
 
 End Class
