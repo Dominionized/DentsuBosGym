@@ -25,6 +25,7 @@ Partial Class frmInscription
         Me.picCoin = New System.Windows.Forms.PictureBox()
         Me.lblTitre = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.lblTestCommit = New System.Windows.Forms.Label()
         CType(Me.picCoin, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -50,18 +51,28 @@ Partial Class frmInscription
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(211, 249)
+        Me.Button1.Location = New System.Drawing.Point(141, 202)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'lblTestCommit
+        '
+        Me.lblTestCommit.AutoSize = True
+        Me.lblTestCommit.Location = New System.Drawing.Point(92, 297)
+        Me.lblTestCommit.Name = "lblTestCommit"
+        Me.lblTestCommit.Size = New System.Drawing.Size(176, 13)
+        Me.lblTestCommit.TabIndex = 3
+        Me.lblTestCommit.Text = "Ceci est un label pour le commit test"
+        '
         'frmInscription
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(311, 408)
+        Me.Controls.Add(Me.lblTestCommit)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.lblTitre)
         Me.Controls.Add(Me.picCoin)
@@ -77,5 +88,6 @@ Partial Class frmInscription
     Friend WithEvents picCoin As System.Windows.Forms.PictureBox
     Friend WithEvents lblTitre As System.Windows.Forms.Label
     Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents lblTestCommit As System.Windows.Forms.Label
 
 End Class

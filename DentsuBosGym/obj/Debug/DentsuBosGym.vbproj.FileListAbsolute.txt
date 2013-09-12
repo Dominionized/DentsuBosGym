@@ -13,3 +13,7 @@ C:\Users\King Dedede\Dropbox\TP1-begind-martineauf\DentsuBosGym\DentsuBosGym\obj
 C:\Users\Dominique\Dropbox\TP1-begind-martineauf\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.exe
 C:\Users\Dominique\Dropbox\TP1-begind-martineauf\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.xml
 C:\Users\Dominique\Dropbox\TP1-begind-martineauf\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.pdb
+C:\Users\Dominique\Source\Repos\DentsuBosGym\DentsuBosGym\bin\Debug\DentsuBosGym.exe.config
+C:\Users\Dominique\Source\Repos\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.exe
+C:\Users\Dominique\Source\Repos\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.xml
+C:\Users\Dominique\Source\Repos\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.pdb
