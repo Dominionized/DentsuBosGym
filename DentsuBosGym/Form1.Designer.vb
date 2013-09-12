@@ -26,7 +26,9 @@ Partial Class frmInscription
         Me.lblTitre = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
         CType(Me.picCoin, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'picCoin
@@ -67,12 +69,20 @@ Partial Class frmInscription
         Me.Button2.Text = "Button2"
         Me.Button2.UseVisualStyleBackColor = True
         '
+        'NumericUpDown1
+        '
+        Me.NumericUpDown1.Location = New System.Drawing.Point(146, 338)
+        Me.NumericUpDown1.Name = "NumericUpDown1"
+        Me.NumericUpDown1.Size = New System.Drawing.Size(120, 20)
+        Me.NumericUpDown1.TabIndex = 4
+        '
         'frmInscription
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
         Me.ClientSize = New System.Drawing.Size(384, 561)
+        Me.Controls.Add(Me.NumericUpDown1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.lblTitre)
@@ -83,6 +93,7 @@ Partial Class frmInscription
         Me.Name = "frmInscription"
         Me.Text = "DentsuBosGym - Inscription"
         CType(Me.picCoin, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -91,5 +102,6 @@ Partial Class frmInscription
     Friend WithEvents lblTitre As System.Windows.Forms.Label
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents NumericUpDown1 As System.Windows.Forms.NumericUpDown
 
 End Class
