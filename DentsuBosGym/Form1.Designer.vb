@@ -26,6 +26,7 @@ Partial Class frmInscription
         Me.lblTitre = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.lblTestCommit = New System.Windows.Forms.Label()
+        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         CType(Me.picCoin, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -51,7 +52,7 @@ Partial Class frmInscription
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(141, 202)
+        Me.Button1.Location = New System.Drawing.Point(224, 373)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 2
@@ -61,17 +62,27 @@ Partial Class frmInscription
         'lblTestCommit
         '
         Me.lblTestCommit.AutoSize = True
-        Me.lblTestCommit.Location = New System.Drawing.Point(92, 297)
+        Me.lblTestCommit.Location = New System.Drawing.Point(15, 386)
         Me.lblTestCommit.Name = "lblTestCommit"
         Me.lblTestCommit.Size = New System.Drawing.Size(176, 13)
         Me.lblTestCommit.TabIndex = 3
         Me.lblTestCommit.Text = "Ceci est un label pour le commit test"
         '
+        'WebBrowser1
+        '
+        Me.WebBrowser1.Location = New System.Drawing.Point(18, 117)
+        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.WebBrowser1.Name = "WebBrowser1"
+        Me.WebBrowser1.Size = New System.Drawing.Size(523, 250)
+        Me.WebBrowser1.TabIndex = 4
+        Me.WebBrowser1.Url = New System.Uri("http://www.google.com", System.UriKind.Absolute)
+        '
         'frmInscription
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(311, 408)
+        Me.ClientSize = New System.Drawing.Size(553, 431)
+        Me.Controls.Add(Me.WebBrowser1)
         Me.Controls.Add(Me.lblTestCommit)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.lblTitre)
@@ -89,5 +100,6 @@ Partial Class frmInscription
     Friend WithEvents lblTitre As System.Windows.Forms.Label
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents lblTestCommit As System.Windows.Forms.Label
+    Friend WithEvents WebBrowser1 As System.Windows.Forms.WebBrowser
 
 End Class
