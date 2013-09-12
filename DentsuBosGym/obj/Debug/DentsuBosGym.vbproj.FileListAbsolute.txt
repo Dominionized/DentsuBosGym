@@ -1,0 +1,15 @@
+C:\Users\Dominique\AppData\Local\Temporary Projects\DentsuBosGym\bin\Debug\DentsuBosGym.exe.config
+C:\Users\Dominique\Dropbox\TP1-begind-martineauf\DentsuBosGym\DentsuBosGym\bin\Debug\DentsuBosGym.exe.config
+C:\Users\King Dedede\Dropbox\TP1-begind-martineauf\DentsuBosGym\DentsuBosGym\bin\Debug\DentsuBosGym.exe.config
+C:\Users\King Dedede\Dropbox\TP1-begind-martineauf\DentsuBosGym\DentsuBosGym\bin\Debug\DentsuBosGym.exe
+C:\Users\King Dedede\Dropbox\TP1-begind-martineauf\DentsuBosGym\DentsuBosGym\bin\Debug\DentsuBosGym.pdb
+C:\Users\King Dedede\Dropbox\TP1-begind-martineauf\DentsuBosGym\DentsuBosGym\bin\Debug\DentsuBosGym.xml
+C:\Users\King Dedede\Dropbox\TP1-begind-martineauf\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.frmInscription.resources
+C:\Users\King Dedede\Dropbox\TP1-begind-martineauf\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.Resources.resources
+C:\Users\King Dedede\Dropbox\TP1-begind-martineauf\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.vbproj.GenerateResource.Cache
+C:\Users\King Dedede\Dropbox\TP1-begind-martineauf\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.exe
+C:\Users\King Dedede\Dropbox\TP1-begind-martineauf\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.xml
+C:\Users\King Dedede\Dropbox\TP1-begind-martineauf\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.pdb
+C:\Users\Dominique\Dropbox\TP1-begind-martineauf\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.exe
+C:\Users\Dominique\Dropbox\TP1-begind-martineauf\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.xml
+C:\Users\Dominique\Dropbox\TP1-begind-martineauf\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.pdb
