@@ -115,6 +115,9 @@
     <EmbeddedResource Include="frmInscription.resx">
       <DependentUpon>frmInscription.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmSplash.resx">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -136,6 +139,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ImageCoin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageTitre.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

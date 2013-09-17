@@ -22,8 +22,42 @@ Partial Class frmSplash
     'Ne la modifiez pas à l'aide de l'éditeur de code.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.components = New System.ComponentModel.Container()
+        Me.tmrSplash = New System.Windows.Forms.Timer(Me.components)
+        Me.lblSplashTitre = New System.Windows.Forms.Label()
+        Me.SuspendLayout()
+        '
+        'tmrSplash
+        '
+        Me.tmrSplash.Interval = 3000
+        '
+        'lblSplashTitre
+        '
+        Me.lblSplashTitre.AutoSize = True
+        Me.lblSplashTitre.BackColor = System.Drawing.Color.Transparent
+        Me.lblSplashTitre.Font = New System.Drawing.Font("Georgia", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSplashTitre.ForeColor = System.Drawing.Color.White
+        Me.lblSplashTitre.Location = New System.Drawing.Point(1, 292)
+        Me.lblSplashTitre.Name = "lblSplashTitre"
+        Me.lblSplashTitre.Size = New System.Drawing.Size(296, 43)
+        Me.lblSplashTitre.TabIndex = 0
+        Me.lblSplashTitre.Text = "DentsuBosGym !"
+        '
+        'frmSplash
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.Text = "Form1"
+        Me.BackgroundImage = Global.DentsuBosGym.My.Resources.Resources.ImageTitre
+        Me.ClientSize = New System.Drawing.Size(584, 344)
+        Me.ControlBox = False
+        Me.Controls.Add(Me.lblSplashTitre)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Name = "frmSplash"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
     End Sub
+    Friend WithEvents tmrSplash As System.Windows.Forms.Timer
+    Friend WithEvents lblSplashTitre As System.Windows.Forms.Label
 End Class

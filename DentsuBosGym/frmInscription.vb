@@ -21,6 +21,6 @@ Public Class frmInscription
 
 
     Private Sub frmInscription_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        frmSplash.ShowDialog()
     End Sub
 End Class

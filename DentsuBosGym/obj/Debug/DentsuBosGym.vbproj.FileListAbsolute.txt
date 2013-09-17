@@ -31,3 +31,10 @@ C:\Users\King Dedede\Source\Repos\DentsuBosGym\DentsuBosGym\bin\Debug\DentsuBosG
 C:\Users\King Dedede\Source\Repos\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.exe
 C:\Users\King Dedede\Source\Repos\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.xml
 C:\Users\King Dedede\Source\Repos\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.pdb
+C:\Users\Dominique\Documents\Informatique\Session 1\Programmation 1\TP1\DentsuBosGym\DentsuBosGym\bin\Debug\DentsuBosGym.exe
+C:\Users\Dominique\Documents\Informatique\Session 1\Programmation 1\TP1\DentsuBosGym\DentsuBosGym\bin\Debug\DentsuBosGym.pdb
+C:\Users\Dominique\Documents\Informatique\Session 1\Programmation 1\TP1\DentsuBosGym\DentsuBosGym\bin\Debug\DentsuBosGym.xml
+C:\Users\Dominique\Documents\Informatique\Session 1\Programmation 1\TP1\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.frmInscription.resources
+C:\Users\Dominique\Documents\Informatique\Session 1\Programmation 1\TP1\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.frmSplash.resources
+C:\Users\Dominique\Documents\Informatique\Session 1\Programmation 1\TP1\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.Resources.resources
+C:\Users\Dominique\Documents\Informatique\Session 1\Programmation 1\TP1\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.vbproj.GenerateResource.Cache
