@@ -29,7 +29,7 @@ Partial Class frmSplash
         '
         'tmrSplash
         '
-        Me.tmrSplash.Interval = 3000
+        Me.tmrSplash.Interval = 1
         '
         'lblSplashTitre
         '
