@@ -41,25 +41,25 @@ Partial Class frmTarifs
         'tblTarifs
         '
         Me.tblTarifs.ColumnCount = 3
-        Me.tblTarifs.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle())
-        Me.tblTarifs.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle())
-        Me.tblTarifs.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle())
+        Me.tblTarifs.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.tblTarifs.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.tblTarifs.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.tblTarifs.Controls.Add(Me.lblTarifFamilial, 2, 0)
         Me.tblTarifs.Controls.Add(Me.lblTitreTarifs, 0, 0)
         Me.tblTarifs.Controls.Add(Me.lblTarifIndividuel, 1, 0)
-        Me.tblTarifs.Location = New System.Drawing.Point(1, 12)
+        Me.tblTarifs.Location = New System.Drawing.Point(12, 12)
         Me.tblTarifs.Name = "tblTarifs"
         Me.tblTarifs.RowCount = 3
-        Me.tblTarifs.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.594937!))
-        Me.tblTarifs.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 58.64979!))
-        Me.tblTarifs.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
-        Me.tblTarifs.Size = New System.Drawing.Size(271, 237)
+        Me.tblTarifs.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.627119!))
+        Me.tblTarifs.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.407665!))
+        Me.tblTarifs.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 83.27526!))
+        Me.tblTarifs.Size = New System.Drawing.Size(310, 287)
         Me.tblTarifs.TabIndex = 1
         '
         'lblTarifIndividuel
         '
         Me.lblTarifIndividuel.AutoSize = True
-        Me.lblTarifIndividuel.Location = New System.Drawing.Point(42, 0)
+        Me.lblTarifIndividuel.Location = New System.Drawing.Point(106, 0)
         Me.lblTarifIndividuel.Name = "lblTarifIndividuel"
         Me.lblTarifIndividuel.Size = New System.Drawing.Size(52, 13)
         Me.lblTarifIndividuel.TabIndex = 1
@@ -68,7 +68,7 @@ Partial Class frmTarifs
         'lblTarifFamilial
         '
         Me.lblTarifFamilial.AutoSize = True
-        Me.lblTarifFamilial.Location = New System.Drawing.Point(100, 0)
+        Me.lblTarifFamilial.Location = New System.Drawing.Point(209, 0)
         Me.lblTarifFamilial.Name = "lblTarifFamilial"
         Me.lblTarifFamilial.Size = New System.Drawing.Size(41, 13)
         Me.lblTarifFamilial.TabIndex = 2
@@ -78,7 +78,7 @@ Partial Class frmTarifs
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.ClientSize = New System.Drawing.Size(334, 311)
         Me.Controls.Add(Me.tblTarifs)
         Me.Name = "frmTarifs"
         Me.Text = "Tarification"
