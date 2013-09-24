@@ -11,4 +11,8 @@
     Private Sub frmTarifs_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+
+    Private Sub btnFermer_Click(sender As Object, e As EventArgs) Handles btnFermer.Click
+        Me.Close()
+    End Sub
 End Class
