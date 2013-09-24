@@ -39,3 +39,7 @@ C:\Users\Dominique\Documents\Informatique\Session 1\Programmation 1\TP1\DentsuBo
 C:\Users\Dominique\Documents\Informatique\Session 1\Programmation 1\TP1\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.Resources.resources
 C:\Users\Dominique\Documents\Informatique\Session 1\Programmation 1\TP1\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.vbproj.GenerateResource.Cache
 C:\Users\Dominique\Documents\Informatique\Session 1\Programmation 1\TP1\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.frmTarifs.resources
+C:\Users\King Dedede\Desktop\DentsuBosGym\DentsuBosGym\bin\Debug\DentsuBosGym.exe.config
+C:\Users\King Dedede\Desktop\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.exe
+C:\Users\King Dedede\Desktop\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.xml
+C:\Users\King Dedede\Desktop\DentsuBosGym\DentsuBosGym\obj\Debug\DentsuBosGym.pdb

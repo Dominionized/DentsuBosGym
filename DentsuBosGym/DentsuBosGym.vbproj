@@ -113,6 +113,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmFacture.resx">
+      <DependentUpon>frmFacture.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmInscription.resx">
       <DependentUpon>frmInscription.vb</DependentUpon>
     </EmbeddedResource>
