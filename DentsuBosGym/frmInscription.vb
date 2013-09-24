@@ -23,4 +23,8 @@ Public Class frmInscription
     Private Sub btnDetails_Click(sender As Object, e As EventArgs) Handles btnDetails.Click
         frmFacture.ShowDialog()
     End Sub
+
+    Private Sub btnCalculer_Click(sender As Object, e As EventArgs) Handles btnCalculer.Click
+
+    End Sub
 End Class

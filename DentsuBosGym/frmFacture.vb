@@ -31,7 +31,13 @@ Public Class frmFacture
                            "Rabais activités: " & Format(rabaisAct, "currency") & NewLine & _
                            "Sous total: " & Format(sousTotal, "currency") & NewLine & _
                            "Rabais Durée: " & Format(rabaisMois, "currency") & _
-                           "Total de l'abonnement: " & Format(prixFinal, "currency") & NewLine & NewLine & _
-                           "TPS: " & )
+                           "Total de l'abonnement: " & Format(prixRabais, "currency") & NewLine & NewLine & _
+                           "TPS" & Format(TAX_TPS, "percent") & ": " & Format(tps, "currency") & NewLine & _
+                           "TVQ" & Format(TAX_TVQ, "percent") & ": " & Format(tvq, "currency") & NewLine & _
+                           "Total de l'inscription: " & Format(prixFinal, "percent"))
+    End Sub
+
+    Private Sub btnFermerFacture_Click(sender As Object, e As EventArgs) Handles btnFermerFacture.Click
+        Me.Close()
     End Sub
 End Class

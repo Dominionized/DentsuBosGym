@@ -26,23 +26,23 @@ Partial Class frmInscription
         Me.picCoin = New System.Windows.Forms.PictureBox()
         Me.lblNomClient = New System.Windows.Forms.Label()
         Me.grbAbonnement = New System.Windows.Forms.GroupBox()
-        Me.grbDuree = New System.Windows.Forms.GroupBox()
-        Me.grbActivites = New System.Windows.Forms.GroupBox()
-        Me.grbTarification = New System.Windows.Forms.GroupBox()
-        Me.txtNomClient = New System.Windows.Forms.TextBox()
-        Me.optIndividuel = New System.Windows.Forms.RadioButton()
         Me.optFamilial = New System.Windows.Forms.RadioButton()
-        Me.optDuree9Mois = New System.Windows.Forms.RadioButton()
-        Me.optDuree6Mois = New System.Windows.Forms.RadioButton()
-        Me.optDuree3Mois = New System.Windows.Forms.RadioButton()
-        Me.chkChoixChest = New System.Windows.Forms.CheckBox()
-        Me.chkChoixBras = New System.Windows.Forms.CheckBox()
-        Me.chkChoixDos = New System.Windows.Forms.CheckBox()
+        Me.optIndividuel = New System.Windows.Forms.RadioButton()
+        Me.grbDuree = New System.Windows.Forms.GroupBox()
         Me.optDuree12Mois = New System.Windows.Forms.RadioButton()
-        Me.lblTitrePrixTotal = New System.Windows.Forms.Label()
-        Me.lblPrixTotal = New System.Windows.Forms.Label()
-        Me.btnDetails = New System.Windows.Forms.Button()
+        Me.optDuree3Mois = New System.Windows.Forms.RadioButton()
+        Me.optDuree6Mois = New System.Windows.Forms.RadioButton()
+        Me.optDuree9Mois = New System.Windows.Forms.RadioButton()
+        Me.grbActivites = New System.Windows.Forms.GroupBox()
+        Me.chkChoixDos = New System.Windows.Forms.CheckBox()
+        Me.chkChoixBras = New System.Windows.Forms.CheckBox()
+        Me.chkChoixChest = New System.Windows.Forms.CheckBox()
+        Me.grbTarification = New System.Windows.Forms.GroupBox()
         Me.btnTarifs = New System.Windows.Forms.Button()
+        Me.btnDetails = New System.Windows.Forms.Button()
+        Me.lblPrixTotal = New System.Windows.Forms.Label()
+        Me.lblTitrePrixTotal = New System.Windows.Forms.Label()
+        Me.txtNomClient = New System.Windows.Forms.TextBox()
         Me.lblSousTitre = New System.Windows.Forms.Label()
         Me.btnCalculer = New System.Windows.Forms.Button()
         Me.btnAnnuler = New System.Windows.Forms.Button()
@@ -95,6 +95,28 @@ Partial Class frmInscription
         Me.grbAbonnement.TabStop = False
         Me.grbAbonnement.Text = "Abonnement"
         '
+        'optFamilial
+        '
+        Me.optFamilial.AutoSize = True
+        Me.optFamilial.Location = New System.Drawing.Point(6, 59)
+        Me.optFamilial.Name = "optFamilial"
+        Me.optFamilial.Size = New System.Drawing.Size(59, 17)
+        Me.optFamilial.TabIndex = 1
+        Me.optFamilial.TabStop = True
+        Me.optFamilial.Text = "Familial"
+        Me.optFamilial.UseVisualStyleBackColor = True
+        '
+        'optIndividuel
+        '
+        Me.optIndividuel.AutoSize = True
+        Me.optIndividuel.Location = New System.Drawing.Point(6, 35)
+        Me.optIndividuel.Name = "optIndividuel"
+        Me.optIndividuel.Size = New System.Drawing.Size(70, 17)
+        Me.optIndividuel.TabIndex = 0
+        Me.optIndividuel.TabStop = True
+        Me.optIndividuel.Text = "Individuel"
+        Me.optIndividuel.UseVisualStyleBackColor = True
+        '
         'grbDuree
         '
         Me.grbDuree.Controls.Add(Me.optDuree12Mois)
@@ -108,6 +130,50 @@ Partial Class frmInscription
         Me.grbDuree.TabStop = False
         Me.grbDuree.Text = "Durée"
         '
+        'optDuree12Mois
+        '
+        Me.optDuree12Mois.AutoSize = True
+        Me.optDuree12Mois.Location = New System.Drawing.Point(6, 89)
+        Me.optDuree12Mois.Name = "optDuree12Mois"
+        Me.optDuree12Mois.Size = New System.Drawing.Size(61, 17)
+        Me.optDuree12Mois.TabIndex = 4
+        Me.optDuree12Mois.TabStop = True
+        Me.optDuree12Mois.Text = "12 mois"
+        Me.optDuree12Mois.UseVisualStyleBackColor = True
+        '
+        'optDuree3Mois
+        '
+        Me.optDuree3Mois.AutoSize = True
+        Me.optDuree3Mois.Location = New System.Drawing.Point(6, 19)
+        Me.optDuree3Mois.Name = "optDuree3Mois"
+        Me.optDuree3Mois.Size = New System.Drawing.Size(55, 17)
+        Me.optDuree3Mois.TabIndex = 2
+        Me.optDuree3Mois.TabStop = True
+        Me.optDuree3Mois.Text = "3 mois"
+        Me.optDuree3Mois.UseVisualStyleBackColor = True
+        '
+        'optDuree6Mois
+        '
+        Me.optDuree6Mois.AutoSize = True
+        Me.optDuree6Mois.Location = New System.Drawing.Point(6, 43)
+        Me.optDuree6Mois.Name = "optDuree6Mois"
+        Me.optDuree6Mois.Size = New System.Drawing.Size(55, 17)
+        Me.optDuree6Mois.TabIndex = 1
+        Me.optDuree6Mois.TabStop = True
+        Me.optDuree6Mois.Text = "6 mois"
+        Me.optDuree6Mois.UseVisualStyleBackColor = True
+        '
+        'optDuree9Mois
+        '
+        Me.optDuree9Mois.AutoSize = True
+        Me.optDuree9Mois.Location = New System.Drawing.Point(6, 66)
+        Me.optDuree9Mois.Name = "optDuree9Mois"
+        Me.optDuree9Mois.Size = New System.Drawing.Size(55, 17)
+        Me.optDuree9Mois.TabIndex = 0
+        Me.optDuree9Mois.TabStop = True
+        Me.optDuree9Mois.Text = "9 mois"
+        Me.optDuree9Mois.UseVisualStyleBackColor = True
+        '
         'grbActivites
         '
         Me.grbActivites.Controls.Add(Me.chkChoixDos)
@@ -119,6 +185,36 @@ Partial Class frmInscription
         Me.grbActivites.TabIndex = 5
         Me.grbActivites.TabStop = False
         Me.grbActivites.Text = "Activités"
+        '
+        'chkChoixDos
+        '
+        Me.chkChoixDos.AutoSize = True
+        Me.chkChoixDos.Location = New System.Drawing.Point(6, 87)
+        Me.chkChoixDos.Name = "chkChoixDos"
+        Me.chkChoixDos.Size = New System.Drawing.Size(45, 17)
+        Me.chkChoixDos.TabIndex = 2
+        Me.chkChoixDos.Text = "Dos"
+        Me.chkChoixDos.UseVisualStyleBackColor = True
+        '
+        'chkChoixBras
+        '
+        Me.chkChoixBras.AutoSize = True
+        Me.chkChoixBras.Location = New System.Drawing.Point(6, 52)
+        Me.chkChoixBras.Name = "chkChoixBras"
+        Me.chkChoixBras.Size = New System.Drawing.Size(47, 17)
+        Me.chkChoixBras.TabIndex = 1
+        Me.chkChoixBras.Text = "Bras"
+        Me.chkChoixBras.UseVisualStyleBackColor = True
+        '
+        'chkChoixChest
+        '
+        Me.chkChoixChest.AutoSize = True
+        Me.chkChoixChest.Location = New System.Drawing.Point(6, 19)
+        Me.chkChoixChest.Name = "chkChoixChest"
+        Me.chkChoixChest.Size = New System.Drawing.Size(53, 17)
+        Me.chkChoixChest.TabIndex = 0
+        Me.chkChoixChest.Text = "Chest"
+        Me.chkChoixChest.UseVisualStyleBackColor = True
         '
         'grbTarification
         '
@@ -133,128 +229,14 @@ Partial Class frmInscription
         Me.grbTarification.TabStop = False
         Me.grbTarification.Text = "Tarification"
         '
-        'txtNomClient
+        'btnTarifs
         '
-        Me.txtNomClient.Location = New System.Drawing.Point(90, 128)
-        Me.txtNomClient.Name = "txtNomClient"
-        Me.txtNomClient.ReadOnly = True
-        Me.txtNomClient.Size = New System.Drawing.Size(282, 20)
-        Me.txtNomClient.TabIndex = 7
-        Me.txtNomClient.Tag = ""
-        '
-        'optIndividuel
-        '
-        Me.optIndividuel.AutoSize = True
-        Me.optIndividuel.Location = New System.Drawing.Point(6, 35)
-        Me.optIndividuel.Name = "optIndividuel"
-        Me.optIndividuel.Size = New System.Drawing.Size(70, 17)
-        Me.optIndividuel.TabIndex = 0
-        Me.optIndividuel.TabStop = True
-        Me.optIndividuel.Text = "Individuel"
-        Me.optIndividuel.UseVisualStyleBackColor = True
-        '
-        'optFamilial
-        '
-        Me.optFamilial.AutoSize = True
-        Me.optFamilial.Location = New System.Drawing.Point(6, 59)
-        Me.optFamilial.Name = "optFamilial"
-        Me.optFamilial.Size = New System.Drawing.Size(59, 17)
-        Me.optFamilial.TabIndex = 1
-        Me.optFamilial.TabStop = True
-        Me.optFamilial.Text = "Familial"
-        Me.optFamilial.UseVisualStyleBackColor = True
-        '
-        'optDuree9Mois
-        '
-        Me.optDuree9Mois.AutoSize = True
-        Me.optDuree9Mois.Location = New System.Drawing.Point(6, 66)
-        Me.optDuree9Mois.Name = "optDuree9Mois"
-        Me.optDuree9Mois.Size = New System.Drawing.Size(55, 17)
-        Me.optDuree9Mois.TabIndex = 0
-        Me.optDuree9Mois.TabStop = True
-        Me.optDuree9Mois.Text = "9 mois"
-        Me.optDuree9Mois.UseVisualStyleBackColor = True
-        '
-        'optDuree6Mois
-        '
-        Me.optDuree6Mois.AutoSize = True
-        Me.optDuree6Mois.Location = New System.Drawing.Point(6, 43)
-        Me.optDuree6Mois.Name = "optDuree6Mois"
-        Me.optDuree6Mois.Size = New System.Drawing.Size(55, 17)
-        Me.optDuree6Mois.TabIndex = 1
-        Me.optDuree6Mois.TabStop = True
-        Me.optDuree6Mois.Text = "6 mois"
-        Me.optDuree6Mois.UseVisualStyleBackColor = True
-        '
-        'optDuree3Mois
-        '
-        Me.optDuree3Mois.AutoSize = True
-        Me.optDuree3Mois.Location = New System.Drawing.Point(6, 19)
-        Me.optDuree3Mois.Name = "optDuree3Mois"
-        Me.optDuree3Mois.Size = New System.Drawing.Size(55, 17)
-        Me.optDuree3Mois.TabIndex = 2
-        Me.optDuree3Mois.TabStop = True
-        Me.optDuree3Mois.Text = "3 mois"
-        Me.optDuree3Mois.UseVisualStyleBackColor = True
-        '
-        'chkChoixChest
-        '
-        Me.chkChoixChest.AutoSize = True
-        Me.chkChoixChest.Location = New System.Drawing.Point(6, 19)
-        Me.chkChoixChest.Name = "chkChoixChest"
-        Me.chkChoixChest.Size = New System.Drawing.Size(53, 17)
-        Me.chkChoixChest.TabIndex = 0
-        Me.chkChoixChest.Text = "Chest"
-        Me.chkChoixChest.UseVisualStyleBackColor = True
-        '
-        'chkChoixBras
-        '
-        Me.chkChoixBras.AutoSize = True
-        Me.chkChoixBras.Location = New System.Drawing.Point(6, 52)
-        Me.chkChoixBras.Name = "chkChoixBras"
-        Me.chkChoixBras.Size = New System.Drawing.Size(47, 17)
-        Me.chkChoixBras.TabIndex = 1
-        Me.chkChoixBras.Text = "Bras"
-        Me.chkChoixBras.UseVisualStyleBackColor = True
-        '
-        'chkChoixDos
-        '
-        Me.chkChoixDos.AutoSize = True
-        Me.chkChoixDos.Location = New System.Drawing.Point(6, 87)
-        Me.chkChoixDos.Name = "chkChoixDos"
-        Me.chkChoixDos.Size = New System.Drawing.Size(45, 17)
-        Me.chkChoixDos.TabIndex = 2
-        Me.chkChoixDos.Text = "Dos"
-        Me.chkChoixDos.UseVisualStyleBackColor = True
-        '
-        'optDuree12Mois
-        '
-        Me.optDuree12Mois.AutoSize = True
-        Me.optDuree12Mois.Location = New System.Drawing.Point(6, 89)
-        Me.optDuree12Mois.Name = "optDuree12Mois"
-        Me.optDuree12Mois.Size = New System.Drawing.Size(61, 17)
-        Me.optDuree12Mois.TabIndex = 4
-        Me.optDuree12Mois.TabStop = True
-        Me.optDuree12Mois.Text = "12 mois"
-        Me.optDuree12Mois.UseVisualStyleBackColor = True
-        '
-        'lblTitrePrixTotal
-        '
-        Me.lblTitrePrixTotal.AutoSize = True
-        Me.lblTitrePrixTotal.Location = New System.Drawing.Point(7, 30)
-        Me.lblTitrePrixTotal.Name = "lblTitrePrixTotal"
-        Me.lblTitrePrixTotal.Size = New System.Drawing.Size(57, 13)
-        Me.lblTitrePrixTotal.TabIndex = 0
-        Me.lblTitrePrixTotal.Text = "Prix Total :"
-        '
-        'lblPrixTotal
-        '
-        Me.lblPrixTotal.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblPrixTotal.Location = New System.Drawing.Point(70, 16)
-        Me.lblPrixTotal.Name = "lblPrixTotal"
-        Me.lblPrixTotal.Size = New System.Drawing.Size(127, 43)
-        Me.lblPrixTotal.TabIndex = 1
-        Me.lblPrixTotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.btnTarifs.Location = New System.Drawing.Point(278, 16)
+        Me.btnTarifs.Name = "btnTarifs"
+        Me.btnTarifs.Size = New System.Drawing.Size(76, 43)
+        Me.btnTarifs.TabIndex = 3
+        Me.btnTarifs.Text = "Tarifs"
+        Me.btnTarifs.UseVisualStyleBackColor = True
         '
         'btnDetails
         '
@@ -265,14 +247,32 @@ Partial Class frmInscription
         Me.btnDetails.Text = "Détails"
         Me.btnDetails.UseVisualStyleBackColor = True
         '
-        'btnTarifs
+        'lblPrixTotal
         '
-        Me.btnTarifs.Location = New System.Drawing.Point(278, 16)
-        Me.btnTarifs.Name = "btnTarifs"
-        Me.btnTarifs.Size = New System.Drawing.Size(76, 43)
-        Me.btnTarifs.TabIndex = 3
-        Me.btnTarifs.Text = "Tarifs"
-        Me.btnTarifs.UseVisualStyleBackColor = True
+        Me.lblPrixTotal.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblPrixTotal.Location = New System.Drawing.Point(70, 16)
+        Me.lblPrixTotal.Name = "lblPrixTotal"
+        Me.lblPrixTotal.Size = New System.Drawing.Size(127, 43)
+        Me.lblPrixTotal.TabIndex = 1
+        Me.lblPrixTotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'lblTitrePrixTotal
+        '
+        Me.lblTitrePrixTotal.AutoSize = True
+        Me.lblTitrePrixTotal.Location = New System.Drawing.Point(7, 30)
+        Me.lblTitrePrixTotal.Name = "lblTitrePrixTotal"
+        Me.lblTitrePrixTotal.Size = New System.Drawing.Size(57, 13)
+        Me.lblTitrePrixTotal.TabIndex = 0
+        Me.lblTitrePrixTotal.Text = "Prix Total :"
+        '
+        'txtNomClient
+        '
+        Me.txtNomClient.Location = New System.Drawing.Point(90, 128)
+        Me.txtNomClient.Name = "txtNomClient"
+        Me.txtNomClient.ReadOnly = True
+        Me.txtNomClient.Size = New System.Drawing.Size(282, 20)
+        Me.txtNomClient.TabIndex = 7
+        Me.txtNomClient.Tag = ""
         '
         'lblSousTitre
         '
